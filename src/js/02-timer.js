@@ -1,6 +1,6 @@
-import flatpicker from 'flatpicker';
-import 'flatpicker/dist/flatpicker.min.css';
-require('flatpicker/dist/themes/dark.css');
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
+require('flatpickr/dist/themes/dark.css');
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const refs = {
