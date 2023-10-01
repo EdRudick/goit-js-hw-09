@@ -1,12 +1,9 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-// Get form element
 const formRef = document.querySelector('.form');
 
-// Set event listener submit on form
 formRef.addEventListener('submit', onSubmitForm);
 
-// Submit form
 function onSubmitForm(e) {
   e.preventDefault();
 
@@ -24,7 +21,6 @@ function onSubmitForm(e) {
   }
 }
 
-// Create promise
 function createPromise(position, delay) {
   const obj = { position, delay };
   const shouldResolve = Math.random() > 0.3;
